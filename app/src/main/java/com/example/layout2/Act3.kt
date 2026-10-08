@@ -3,6 +3,7 @@ package com.example.layout2
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Card
@@ -34,7 +35,8 @@ fun ActivitasPertama(modifier: Modifier){
         )
         Spacer(modifier = Modifier.height(25.dp))
         Card(
-
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
         ) {
 
         }
